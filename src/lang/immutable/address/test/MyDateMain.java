@@ -1,6 +1,6 @@
 package lang.immutable.address.test;
 
-public class ImmutableMyDateMain {
+public class MyDateMain {
 
     public static void main(String[] args) {
         MyDate date1 = new MyDate(2024,1,1);

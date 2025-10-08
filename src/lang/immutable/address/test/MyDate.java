@@ -2,7 +2,7 @@ package lang.immutable.address.test;
 
 public class MyDate {
 
-    private  int year;
+    private int year;
     private int month;
     private  int day;
 
@@ -10,10 +10,6 @@ public class MyDate {
         this.year = year;
         this.month = month;
         this.day = day;
-    }
-
-    public MyDate change(MyDate other) {
-        return new MyDate(year, month, day + other.day);
     }
 
     public void setYear(int year) {
